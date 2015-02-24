@@ -1,6 +1,6 @@
 {
   "name": "express-use-if",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Conditionally mount middleware.",
   "main": "index.js",
   "scripts": {
