@@ -6,22 +6,6 @@ var expect = require('unexpected')
     .clone()
     .installPlugin(require('unexpected-sinon'))
     .installPlugin(require('unexpected-express'));
-    // .addAssertion('to yield a response of', function (expect, subject, value, done) {
-    //     var app = express()
-    //         .use(require('cookie-parser')())
-    //         .use(function (req, res) {
-    //             res.send('Hello world!');
-    //         });
-    //     expect(app, 'to yield exchange', {
-    //         request: subject,
-    //         response: value
-    //     }, done);
-    // });
-
-// condition, mountPoint, middleware, middlewareArgs
-// condition, mountPoint, middleware
-// condition, middleware, middlewareArgs
-// condition, middleware
 
 describe('express.useif', function () {
     describe('.useif(condition, middleware)', function () {
