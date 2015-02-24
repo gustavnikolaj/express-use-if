@@ -1,0 +1,35 @@
+{
+  "name": "express-use-if",
+  "version": "0.1.0",
+  "description": "Conditionally mount middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gustavnikolaj/express-use-if.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "conditional"
+  ],
+  "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavnikolaj/express-use-if/issues"
+  },
+  "homepage": "https://github.com/gustavnikolaj/express-use-if",
+  "peerDependencies": {
+    "express": ">= 4.10.2"
+  },
+  "devDependencies": {
+    "express": "4.10.2",
+    "mocha": "2.1.0",
+    "sinon": "1.12.2",
+    "unexpected": "5.9.3",
+    "unexpected-express": "4.8.0",
+    "unexpected-sinon": "5.1.0"
+  }
+}
