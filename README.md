@@ -8,7 +8,7 @@ Conditionally mount middleware.
 
 ```js
 express()
-    .use(booleanCondition, conditionalMiddleware)
+    .useif(booleanCondition, conditionalMiddleware)
     .use(someMiddleware)
 ```
 
